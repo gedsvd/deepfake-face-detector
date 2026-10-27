@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+.idea/
+.vscode/
+.DS_Store
+
+# SQLite runtime databases - never commit
+users.db
+*.db
+*.sqlite3
+
+# Model weights (downloaded on first run)
+Deep_model.keras
+*.keras
+*.h5
